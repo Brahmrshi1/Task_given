@@ -1,0 +1,21 @@
+module.exports = (app) => {
+    const notes=require('../controller/controll')
+   
+    // Create a new Note
+    app.post('/notes', notes.create);
+
+    // App thirdparty url call
+    app.get('/notes/demo',notes.demo);
+
+    // Retrieve all Notes
+    app.get('/notes', notes.findAll);
+
+    // Retrieve a single Note with noteId
+    app.get('/notes/:noteId', notes.findOne);
+
+    // Update a Note with noteId
+    app.put('/notes/:noteId', notes.update);
+
+    // Delete a Note with noteId
+    app.delete('/notes/:noteId', notes.delete);
+}

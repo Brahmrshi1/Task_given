@@ -1,0 +1,35 @@
+Controller
+Demo Part
+        var rp= require('request-promise');
+ 
+        // const requestOptions = {
+        //     method: 'GET',
+        //     uri: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest',
+        //     qs: {
+        //       start: 1,
+        //       limit: 5000,
+        //       convert: 'USD'
+        //     },
+        //     headers: {
+        //       'X-CMC_PRO_API_KEY': 'bc21eb8d-0707-4fd7-8e1f-67cd6839b71f'
+        //     },
+        //     json: true,
+        //     gzip: true
+        //   };
+
+    //     var options={               
+    //     methode: 'GET',    
+    //     uri:'http://api.nasa.gov/planetary/apod?api_key=6lfkMioPKesKd0LFWLjQTcRJccsOkaIuFF1yXvrR',     
+    //     json:true    
+    // };
+    //  rp(options)
+    //     .then(function(parseBody){
+    //     var data=[];
+    //     for(i=0 ;i<parseBody.items.length;i++){
+    //         data.push([parseBody.items[i].timestamp,parseBody.items[i].views]);
+    //     }
+    //     console.log(data);
+    //     res.send(data);
+    //     })
+    //     .catch(function (err){
+    // });
